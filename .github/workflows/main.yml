@@ -18,6 +18,6 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Krishnaik06:$HF_TOKEN@huggingface.co/spaces/Krishnaik06/Search_Engine main
+        run: git push --force https://Krishnaik06:$HF_TOKEN@huggingface.co/spaces/Krishnaik06/Search_Engine_llm main
 
             
